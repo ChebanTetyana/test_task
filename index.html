@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Test Task</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Test task</h1>
+    </header>
+    <main class="task">
+        <div class="container">
+            <h3 class="title">
+                Condition of the task
+            </h3>
+            <ul class="task__list">
+            You need to develop an algorithm for a program that should do the following:
+                <li class="task__item">the program accepts an arbitrary text as input and finds in each word of this text the very first character that is NOT
+                more is repeated in the analyzed word</li>
+                <li class="task__item">the program accepts an arbitrary text as input and finds in each word of this text the very first character that is NOT
+                more is repeated in the analyzed word</li>
+            </ul>
+            <h4 class="title">
+                Solving the task
+            </h4>
+            <h4 class="title">
+                Input text
+            </h4>
+            <label > 
+                <textarea name="text" id="inputUserText"  rows="5"></textarea>
+            </label>
+            <div class="task__d-flex">
+                <button class="task__btn" id="result" onclick="onResultClick()">Result input</button>
+                <textarea class="task__result" id="resultComponent"></textarea>
+                <button onclick="cleanInput()">Clear input</button>
+            </div>
+        </div>
+    </main>
+    <script src="./js/findFirstSymbol.js"></script>
+</body>
+</html>
